@@ -1,0 +1,12 @@
+<h1>Welcome#sample</h1>
+
+<%= link_to("Go to Index",{
+	#in in the same controller boleh get rid of the controller tag
+	#:controller => 'welcome',
+	
+	:action => 'index',
+
+	#can also pass parameter
+	:id => 5,
+	:other_param => "stuff"
+}) %>

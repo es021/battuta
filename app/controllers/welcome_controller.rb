@@ -6,7 +6,6 @@ class WelcomeController < ApplicationController
   		@id = params[:id]
   		@other_param = params[:other_param]
   	end
-
   end
 
   def sample
